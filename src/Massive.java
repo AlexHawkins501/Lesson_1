@@ -1,4 +1,5 @@
 import java.util.Arrays;
+// Задание 10
 
 public class Massive {
     public static void main(String[] args) {
