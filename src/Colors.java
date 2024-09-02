@@ -1,4 +1,4 @@
-
+// Задание 3
 
 public class Colors {
     public static void main(String[] args) {
