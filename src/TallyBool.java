@@ -1,5 +1,5 @@
 public class TallyBool {
-
+// Задание 7
     public static boolean valid(int y) {
         return y >= 0;
     }
