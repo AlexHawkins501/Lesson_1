@@ -1,5 +1,5 @@
 import java.util.Arrays;
-
+// Задание 12
 public class MassiveMult {
     public static void main(String[] args) {
 
