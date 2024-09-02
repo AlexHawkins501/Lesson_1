@@ -1,5 +1,5 @@
 public class Tally {
-
+// Задание 6
     public static void main(String[] args) {
         int x = -10;
         valid(x);
