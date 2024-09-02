@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// Задание 5
 public class Sum {
     public static boolean validNumber(int numOne, int numTwo) {
         int summ = numOne + numTwo;
