@@ -1,3 +1,4 @@
+// Задание 2
 public class Summ {
     public static void main(String[] args) {
         checkSumSign();
