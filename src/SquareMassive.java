@@ -1,5 +1,5 @@
 import java.util.Arrays;
-
+// Задание 13
 public class SquareMassive {
     public static void main(String[] args) {
         int[][] square = new int[10][10];
