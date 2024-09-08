@@ -42,6 +42,12 @@ public class Square implements Figure {
         }
     }
 
+
+    @Override
+    public double Peri() {
+        return a*4;
+    }
+
     @Override
     public void print() {
         PerimetrS();

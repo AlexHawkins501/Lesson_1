@@ -12,5 +12,10 @@ public class SquareMain {
         Figure circle = new Circle(12.2,"Круг","Фиолетовый","Голубой");
         circle.print();
 
+        /*Реализация подсчета периметра в интерфейсе, простенькая */
+        System.out.println(triangle.Peri());
+        System.out.println(String.format("%.2f",circle.Peri()));
+        System.out.println(square.Peri());
+
     }
 }

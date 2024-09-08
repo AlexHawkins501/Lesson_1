@@ -58,6 +58,10 @@ public class Triangle implements Figure {
 
     }
 
+    public double Peri(){
+        return a+b+c;
+    }
+
     public void print() {
         PerimeterTr();
     }

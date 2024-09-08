@@ -57,6 +57,10 @@ public class Circle implements Figure {
         return 0;
     }
 
+    public double Peri(){
+        return Math.PI * 2 * r;
+    }
+
     public void print() {
         PCircle();
         SCircle();
