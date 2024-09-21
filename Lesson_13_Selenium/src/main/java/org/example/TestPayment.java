@@ -13,7 +13,7 @@ public class TestPayment {
 
     private WebDriver driver;
 
-    public TestPrice(WebDriver driver) {
+    public TestPayment(WebDriver driver) {
         this.driver = driver;
     }
 
