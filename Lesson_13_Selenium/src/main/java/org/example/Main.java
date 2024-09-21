@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Main {
     public static void main(String[] args) throws InterruptedException {
         WebDriver driver = new ChromeDriver();
-        TestPrice page = new TestPrice(driver);
+        TestPayment page = new TestPayment(driver);
         driver.get("https://mts.by");
         page.setCookiesAgree();
         page.findPayWindow();
