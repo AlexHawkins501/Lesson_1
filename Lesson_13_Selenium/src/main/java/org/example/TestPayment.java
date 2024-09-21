@@ -9,7 +9,7 @@ import java.util.List;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated;
 
-public class TestPrice {
+public class TestPayment {
 
     private WebDriver driver;
 
