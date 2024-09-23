@@ -1,5 +1,6 @@
 package org.example;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -16,4 +17,15 @@ class FactorialJunitTest {
         assertEquals(120, FactorialJunit.factorial(5));
     }
 
+    @Test
+    void testNegativeFactorial() {
+        Assertions.assertThrows(IllegalArgumentException.class, () -> {
+            FactorialJunit.factorial(-5);
+        });
+    }
+
+    @Test
+    void testNegativeFactorialFalse() {
+        assertEquals(1, FactorialJunit.factorial(-10));
+    }
 }
