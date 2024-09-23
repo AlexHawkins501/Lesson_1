@@ -2,6 +2,7 @@ package org.example;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import org.testng.asserts.Assertion;
 
 import static org.testng.Assert.*;
 
@@ -14,9 +15,12 @@ public class FactorialNgTest {
         Assert.assertEquals(actual, expected);
 
     }
+    @Test(expectedExceptions = IllegalArgumentException.class)
+    public void testFactorialNegative(){
+        FactorialNg.factorial(-10);
+    }
     @Test
-    public void testFactorial2(){
-        assertEquals(120, FactorialNg.factorial(5));
+    public void testNegativeFactorialErr(){
         assertEquals(1, FactorialNg.factorial(-1));
     }
 }
